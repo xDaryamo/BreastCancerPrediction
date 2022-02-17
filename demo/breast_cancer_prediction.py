@@ -48,7 +48,7 @@ def remove_collinear_features(x, threshold):
 
 
 def get_trained_model():
-    csv = "https://raw.githubusercontent.com/xDaryamo/BreastCancerPrediction/master/dataset.csv"
+    csv = "https://storage.googleapis.com/kagglesdsdata/datasets/180/408/data.csv?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20220217%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220217T190611Z&X-Goog-Expires=259199&X-Goog-SignedHeaders=host&X-Goog-Signature=3be2cba7ecbc59c49ab2138b6aa14e386b6118abe4eaa578223a5ef141194af12683bf48bae44c9912f05115c731b9648b4c0b2c0cedb87521ac5ba0afe90520eb861b0b0a95f4ff1f9bcb1024e679c53852ba0c480f1c2651fdbca5a9193778b1f293b7d57cbd08c6b776308fdd4e89e8c175121f82b733f456868be88cf5c34395da6baa63389cd7fad7c4f7d7d534cd2d946fec0cf2c41ee0eb2788613cedbf3bad6a896c0278d54dabead68603068731e498fd9930fd804df1351ae081b573c9165925dbfbf1d6808637020e71f880ff6214c0655575cbef47dbb7cb4562b8826773b0efa8005ae583b16b52af4abeb7d7d823b977a7e4253f4b7f2eadfb"
     # Caricamento del csv dalla repo GitHub
     df = pd.read_csv(csv)
     df.diagnosis.replace({"M": 1, "B": 0}, inplace=True)
