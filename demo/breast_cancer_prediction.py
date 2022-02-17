@@ -42,7 +42,6 @@ def remove_collinear_features(x, threshold):
                     drop_cols.append(col.values[0])
 
     # Drop one of each pair of correlated columns
-    drops = set(drop_cols)
     return drop_cols
 
 
