@@ -11,23 +11,23 @@
 | [Nicolò Delogu](https://github.com/XJustUnluckyX)       |
 | [Tommaso Sorrentino](https://github.com/LobsterRavioli) |
 
-##Documentazione
+## Documentazione
 * È possibile trovare la documentazione relativa al progetto nella cartella docs, può essere immediatamente visualizzata al seguente [link](../BreastCancerPrediction/docs/ProgettoFIA.pdf).
 
-##Guida per l'esecuzione locale
+## Guida per l'esecuzione locale
 
 ### Esecuzione GUI
 1.Entrare nella cartella demo</br>
 2.Eseguire lo script gui.py
 
-##Modelli di ML utilizzati
+## Modelli di ML utilizzati
 ### Classificatori
 * Logistic Regression
 * Gaussian Naive Bayes
 * Random Forest
 * Decision Tree
 
-##Tecnologie Utilizzate
+## Tecnologie Utilizzate
 * [Python](https://www.python.org/downloads/release/python-3102/)
 * [JupiterNotebook](https://jupyter.org/)
 * [Google Colab](https://colab.research.google.com/)
@@ -36,7 +36,7 @@
 * [Overleaf/Latex](https://it.overleaf.com/)
 * [Pycharm](https://www.jetbrains.com/pycharm/)
 
-##Contributors
+## Contributors
 <a href="https://github.com/fasanosalvatore/FitDiary/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=xDaryamo/BreastCancerPrediction" alt=""/>
 </a>
