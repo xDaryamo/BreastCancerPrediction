@@ -1,6 +1,7 @@
 # BreastCancerPrediction
-
-![](../BreastCancerPrediction/logo.png)
+<p>
+<img alt="BreastCancerPrediction Logo" width="460" height="300" src="logo.png">
+</p>
 
 > Progetto realizzato per il corso Fondamenti di Intelligenza Artificiale 2021/2022 - Università degli studi di Salerno
 
@@ -37,5 +38,5 @@
 
 ##Contributors
 <a href="https://github.com/fasanosalvatore/FitDiary/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=xDaryamo/BreastCancerPrediction" />
+  <img src="https://contrib.rocks/image?repo=xDaryamo/BreastCancerPrediction" alt=""/>
 </a>
