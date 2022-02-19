@@ -21,8 +21,9 @@
 2.Eseguire lo script gui.py
 
 ## Modelli di ML utilizzati
-### Classificatori
+### Regressori
 * Logistic Regression
+### Classificatori
 * Gaussian Naive Bayes
 * Random Forest
 * Decision Tree
